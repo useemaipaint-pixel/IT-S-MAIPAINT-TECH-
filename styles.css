@@ -7,37 +7,37 @@
 
   /* Brand palette (IT'S MAIPAINT) */
   --background: oklch(1 0 0);
-  --foreground: oklch(0.248 0.094 264.9);
+  --foreground: oklch(0.24 0.012 220);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.248 0.094 264.9);
+  --card-foreground: oklch(0.24 0.012 220);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.248 0.094 264.9);
-  --primary: oklch(0.469 0.231 263.2);
-  --primary-glow: oklch(0.561 0.242 262.6);
+  --popover-foreground: oklch(0.24 0.012 220);
+  --primary: oklch(0.58 0.1 205);
+  --primary-glow: oklch(0.68 0.11 203);
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.964 0.017 267.8);
-  --secondary-foreground: oklch(0.247 0.101 263.7);
-  --muted: oklch(0.973 0.013 266.7);
-  --muted-foreground: oklch(0.531 0.068 266.8);
-  --accent: oklch(0.925 0.036 268.3);
-  --accent-foreground: oklch(0.247 0.101 263.7);
+  --secondary: oklch(0.965 0.012 200);
+  --secondary-foreground: oklch(0.24 0.012 220);
+  --muted: oklch(0.972 0.008 200);
+  --muted-foreground: oklch(0.5 0.02 215);
+  --accent: oklch(0.92 0.035 200);
+  --accent-foreground: oklch(0.24 0.012 220);
   --destructive: oklch(0.584 0.227 26.9);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.925 0.036 268.3);
-  --input: oklch(0.89 0.05 268);
-  --ring: oklch(0.828 0.138 204.2);
+  --border: oklch(0.91 0.025 200);
+  --input: oklch(0.88 0.035 200);
+  --ring: oklch(0.78 0.16 70);
 
-  --navy: oklch(0.247 0.101 263.7);
-  --navy-2: oklch(0.324 0.141 263.7);
-  --royal: oklch(0.419 0.202 263.7);
-  --electric: oklch(0.605 0.216 257.5);
-  --cyan: oklch(0.828 0.138 204.2);
-  --brand-red: oklch(0.584 0.227 26.9);
+  --navy: oklch(0.22 0.006 250);
+  --navy-2: oklch(0.29 0.02 220);
+  --royal: oklch(0.45 0.08 208);
+  --electric: oklch(0.66 0.11 203);
+  --cyan: oklch(0.78 0.16 70);
+  --brand-red: oklch(0.77 0.165 68);
   --whatsapp: oklch(0.761 0.201 149.7);
   --whatsapp-deep: oklch(0.66 0.18 150);
   --on-dark: oklch(1 0 0);
-  --surface-soft: oklch(0.964 0.017 267.8);
-  --surface-tint: oklch(0.973 0.013 266.7);
+  --surface-soft: oklch(0.965 0.012 200);
+  --surface-tint: oklch(0.975 0.01 80);
 
   --gradient-button: linear-gradient(180deg, var(--primary-glow), var(--primary));
   --gradient-hero: radial-gradient(120% 95% at 78% 30%, var(--electric) 0%, var(--primary) 38%, var(--navy-2) 68%, var(--navy) 100%);
@@ -745,3 +745,4 @@ img{image-rendering:auto}
 .mp-toast[hidden]{display:none}
 .mp-hero-photo,.mp-founder-photo{max-width:none}
 .size-5{width:1.25rem;height:1.25rem}
+

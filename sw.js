@@ -1,8 +1,8 @@
 // IT'S MAIPAINT TECH service worker. Bump VERSION when you change any file.
-var VERSION = "maipaint-v1";
+var VERSION = "maipaint-v5";
 var CORE = [
   "./", "index.html", "styles.css", "app.js", "manifest.webmanifest",
-  "logo_mark.png", "founder.jpg", "founder_light.jpg",
+  "logo_mark.png", "splash_logo.jpg", "founder.jpg", "founder_light.jpg",
   "website_laptop.jpg", "dashboard_laptop.jpg", "mobile_apps.jpg", "real_estate_site.jpg",
   "favicon.png", "apple-touch-icon.png", "icon-192.png", "icon-512.png", "icon-maskable-512.png"
 ];
